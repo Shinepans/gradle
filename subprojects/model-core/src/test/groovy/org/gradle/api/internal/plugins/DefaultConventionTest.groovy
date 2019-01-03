@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 the original author or authors.
+ * Copyright 2019 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package org.gradle.internal.extensibility
+package org.gradle.api.internal.plugins
 
-
+import org.gradle.api.internal.plugins.DefaultConvention
 import org.gradle.api.plugins.Convention
 import org.gradle.api.reflect.HasPublicType
 import org.gradle.api.reflect.TypeOf
+import org.gradle.internal.extensibility.TestPluginConvention1
+import org.gradle.internal.extensibility.TestPluginConvention2
 import org.gradle.internal.reflect.Instantiator
 import org.gradle.util.TestUtil
 import org.junit.Before

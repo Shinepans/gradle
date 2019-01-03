@@ -18,6 +18,7 @@ package org.gradle.internal.extensibility
 
 import org.gradle.api.Action
 import org.gradle.api.UnknownDomainObjectException
+import org.gradle.api.internal.plugins.DefaultConvention
 import org.gradle.api.plugins.ExtensionAware
 import org.gradle.api.plugins.ExtraPropertiesExtension
 import org.gradle.api.reflect.TypeOf

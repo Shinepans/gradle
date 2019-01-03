@@ -17,6 +17,7 @@
 package org.gradle.internal.extensibility;
 
 import org.gradle.api.InvalidUserDataException;
+import org.gradle.api.internal.plugins.DefaultConvention;
 import org.gradle.test.fixtures.file.TestNameTestDirectoryProvider;
 import org.gradle.util.TestTask;
 import org.gradle.util.TestUtil;

@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 the original author or authors.
+ * Copyright 2019 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.gradle.internal.extensibility;
+package org.gradle.api.internal.plugins;
 
 import com.google.common.collect.Maps;
 import groovy.lang.Closure;
 import org.gradle.api.Action;
-import org.gradle.api.internal.plugins.DslObject;
-import org.gradle.api.internal.plugins.ExtensionContainerInternal;
 import org.gradle.api.plugins.Convention;
 import org.gradle.api.plugins.ExtensionsSchema;
 import org.gradle.api.plugins.ExtraPropertiesExtension;
 import org.gradle.api.reflect.TypeOf;
+import org.gradle.internal.extensibility.DefaultExtraPropertiesExtension;
+import org.gradle.internal.extensibility.ExtensionsStorage;
 import org.gradle.internal.metaobject.AbstractDynamicObject;
 import org.gradle.internal.metaobject.BeanDynamicObject;
 import org.gradle.internal.metaobject.DynamicInvokeResult;
